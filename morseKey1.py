@@ -230,34 +230,8 @@ def texttomorse(message):
     for word in spacedmessage:
         if word=='': word = '/'
         for letter in word:
-            '''if letter=='a': a()
-            if letter=='b': b()
-            if letter=='c': c()
-            if letter=='d': d()
-            if letter=='e': e()
-            if letter=='f': f()
-            if letter=='g': g()
-            if letter=='h': h()
-            if letter=='i': i()
-            if letter=='j': j()
-            if letter=='k': k()
-            if letter=='l': l()
-            if letter=='m': m()
-            if letter=='n': n()
-            if letter=='o': o()
-            if letter=='p': p()
-            if letter=='q': q()
-            if letter=='r': r()
-            if letter=='s': s()
-            if letter=='t': t()
-            if letter=='u': u()
-            if letter=='v': v()
-            if letter=='w': w()
-            if letter=='x': x()
-            if letter=='y': y()
-            if letter=='z': z()'''
             if letter in 'a b c d e f g h i j k l m n o p q r s t u v w x y z':
-                eval(letter, '()')
+                eval(letter + '()')
             if letter=='/': space()
             if not letter=='/':
                 letterspace()
