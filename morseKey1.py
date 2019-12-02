@@ -1,12 +1,5 @@
 from morse import *
 
-if __name__=='__main__':
-    def dot():
-        print('.')
-    def dash():
-        print('-')
-    def space():
-        print('/')
 def a():
     try:
         dot()
