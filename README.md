@@ -10,6 +10,6 @@ To run: run morseexe.py, it takes one argument which is the message to be transl
   - morseexe.py = this takes a command line argument of the message you want to translate. It is the runner for the full project.
 
 ### What it does:
-    - When running morseexe.py it will translate the message you input into morse code and it will display it with the LED repeatedly until you exit the program (CTRL C).
-    - It will also print out the translated message in the console every time the LED finishes.
-    - EXAMPLE: python3 morseexe.py Hello World will output ".... . .-.. .-.. --- / .-- --- .-. .-.. -.. / /". If you put this into a morse to text convert ([I suggest this one](https://morsecode.scphillips.com/translator.html)) it will give you "HELLO WORLD".
+  - When running morseexe.py it will translate the message you input into morse code and it will display it with the LED repeatedly until you exit the program (CTRL C).
+  - It will also print out the translated message in the console every time the LED finishes.
+  - EXAMPLE: python3 morseexe.py Hello World will output ".... . .-.. .-.. --- / .-- --- .-. .-.. -.. / /". If you put this into a morse to text convert ([I suggest this one](https://morsecode.scphillips.com/translator.html)) it will give you "HELLO WORLD".
