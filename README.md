@@ -6,9 +6,9 @@ To run: run morseexe.py, it takes one argument which is the message to be transl
 
 <h2>Breakdown of the project:</h2>
 <ul>
-  <li>morse.py = defines the dot dash and space functions that are used to trigger or not trigger the led for the certain amount of time</li>
+  <li>dotDash.py = defines the dot dash and space functions that are used to trigger or not trigger the led for the certain amount of time</li>
   <li>morseKey.py = defines functions for all of the letters. For example it says that for the letter "e" do one dot. This is all brought together in the texttomorse function, which takes one argument which is the message to be translated.</li>
-  <li>morseexe.py = this takes a command line argument of the message you want to translate. It is the runner for the full project.</li>
+  <li>morse.py = this takes a command line argument of the message you want to translate. It is the runner for the full project.</li>
 </ul>
 <h2>What it does:</h2>
 <ul>
