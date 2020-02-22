@@ -6,6 +6,10 @@ This project is meant be run strictly on a Raspberry Pi. It assumes that you hav
  - run morse.py, it takes one argument which is the message to be translated. 
  - EXAMPLE: python3 morse.py Hello World
 
+```python
+print('hi')
+```
+
 ## Break Down of the Project
   - dotDash.py = defines the dot dash and space functions that are used to trigger or not trigger the led for the certain amount of time
   - morseKey.py = defines functions for all of the letters. For example it says that for the letter "e" do one dot. This is all brought together in the texttomorse function, which takes one argument which is the message to be translated.
