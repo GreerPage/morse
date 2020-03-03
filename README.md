@@ -4,8 +4,6 @@ This project is meant be run strictly on a Raspberry Pi. It assumes that you hav
 
 ![raspi](https://greerpage.com/static/images/raspidiagram.png)
 
-![raspi](https://greerpage.com/static/images/img1.jpg)
-
 ## To run 
  - run morse.py, it takes one argument which is the message to be translated. 
  - EXAMPLE: ```python3 morse.py Hello World```
