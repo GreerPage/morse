@@ -2,7 +2,7 @@
 
 This project is meant be run strictly on a Raspberry Pi. It assumes that you have an LED connected and properly wired to a breadboard using GPIO pin 18. 
 
-![raspi](https://greerpage.com/static/images/img1.jpg)
+![raspi](https://greerpage.com/static/images/raspidiagram.png)
 
 ## To run 
  - run morse.py, it takes one argument which is the message to be translated. 
