@@ -144,7 +144,7 @@ def texttomorse(message):
         if word=='': word = '/'
         for letter in word:
             if letter in 'a b c d e f g h i j k l m n o p q r s t u v w x y z':
-                eval(letter + '()')
+                globals()[letter]()
             if letter=='/': space()
             if not letter=='/':
                 letterspace()
