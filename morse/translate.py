@@ -53,3 +53,24 @@ def char_to_morse(c):
         y()
     if c == 'z':
         z()
+    if c == '1':
+        one()
+    if c == '2':
+        two()
+    if c == '3':
+        three()
+    if c == '4':
+        four()
+    if c == '5':
+        five()
+    if c == '6':
+        six()
+    if c == '7':
+        seven()
+    if c == '8':
+        eight()
+    if c == '9':
+        nine()
+    if c == '0':
+        zero()
+    
