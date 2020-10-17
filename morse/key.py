@@ -1,4 +1,4 @@
-from .lights import *
+from .lights import dot, dash
 
 def a():
     dot()
