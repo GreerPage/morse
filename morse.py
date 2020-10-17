@@ -1,5 +1,5 @@
 import sys
-from morseKey import texttomorse
+from morse import texttomorse
 
 args = ' '.join(sys.argv)
 args = args.replace('morse.py', '')
