@@ -1,1 +1,1 @@
-from .translate import texttomorse
+from .run import text_to_morse
