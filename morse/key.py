@@ -201,3 +201,35 @@ def zero():
     dash()
     dash()
     dash()
+
+def period():
+    dot()
+    dash()
+    dot()
+    dash()
+    dot()
+    dash()
+
+def comma():
+    dash()
+    dash()
+    dot()
+    dot()
+    dash()
+    dash()
+
+def question_mark():
+    dot()
+    dot()
+    dash()
+    dash()
+    dot()
+    dot()
+
+def exclamation_point():
+    dot()
+    dot()
+    dash()
+    dash()
+    dot()
+    dot()
