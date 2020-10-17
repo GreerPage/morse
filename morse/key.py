@@ -131,3 +131,73 @@ def z():
     dash()
     dot()
     dot()
+
+def one():
+    dot()
+    dash()
+    dash()
+    dash()
+    dash()
+
+def two():
+    dot()
+    dot()
+    dash()
+    dash()
+    dash()
+
+def three():
+    dot()
+    dot()
+    dot()
+    dash()
+    dash()
+
+def four():
+    dot()
+    dot()
+    dot()
+    dot()
+    dash()
+
+def five():
+    dot()
+    dot()
+    dot()
+    dot()
+    dot()
+
+def six():
+    dash()
+    dot()
+    dot()
+    dot()
+    dot()
+
+def seven():
+    dash()
+    dash()
+    dot()
+    dot()
+    dot()
+
+def eight():
+    dash()
+    dash()
+    dash()
+    dot()
+    dot()
+
+def nine():
+    dash()
+    dash()
+    dash()
+    dash()
+    dot()
+
+def zero():
+    dash()
+    dash()
+    dash()
+    dash()
+    dash()
