@@ -21,6 +21,8 @@ def char_to_morse(c):
         i()
     if c == 'j':
         j()
+    if c == 'k':
+        k()
     if c == 'l':
         l()
     if c == 'm':
