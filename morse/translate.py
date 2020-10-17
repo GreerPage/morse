@@ -73,4 +73,12 @@ def char_to_morse(c):
         nine()
     if c == '0':
         zero()
+    if c == '.':
+        period()
+    if c == '?':
+        question_mark()
+    if c == ',':
+        comma()
+    if c == '!':
+        exclamation_point()
     
