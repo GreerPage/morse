@@ -23,7 +23,7 @@ if __name__ == '__main__':
 	
 	elif '-h' in args or '--help' in args:
 		print('Usage: {} [ MESSAGE ] -l [ TRUE/FALSE ]'.format(name))
-		print('Example: {} go to https://spotify.greerpage.com please -l true')
+		print('Example: {} go to https://spotify.greerpage.com please -l true'.format(name))
 		print()
 		print('-l, --loop	if set to true the message will be displayed until the process is killed (false by default)')
 	
