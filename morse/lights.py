@@ -28,3 +28,6 @@ def letterspace():
 	GPIO.output(18, False)
 	print(' ', end = '')
 	time.sleep(0.6)
+
+def off():
+	GPIO.output(18, False)
