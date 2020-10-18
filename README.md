@@ -18,3 +18,6 @@ make sure to connect an LED to a raspberry pi as shown below:
 $ morse hello, world! #displays hello, world! in morse code once
 $ morse hello, world! -l true #displays hello, world! in morse code until loop is stopped 
 ```
+
+## License
+MIT License
