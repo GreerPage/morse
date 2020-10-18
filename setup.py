@@ -13,6 +13,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/GreerPage/morse",
+    packages=setuptools.find_packages(),
     install_requires=["raspi"],
     classifiers=[
         "Programming Language :: Python :: 3",
