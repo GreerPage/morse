@@ -7,16 +7,16 @@ def main():
     args.pop(0)
 
     if args == []:
-        print('Usage: {} [ MESSAGE ] -l [ TRUE/FALSE ]'.format(name))
-        print('Try \'{} --help\' for more information.'.format(name))
+        print('Usage: morse [ MESSAGE ] -l [ TRUE/FALSE ]')
+        print('Try \'morse --help\' for more information.')
 
     elif args[0] == '-l' or args[0] == '--loop':
-        print('Usage: {} [ MESSAGE ] -l [ TRUE/FALSE ]'.format(name))
-        print('Try \'{} --help\' for more information.'.format(name))
+        print('Usage: morse [ MESSAGE ] -l [ TRUE/FALSE ]')
+        print('Try \'morse --help\' for more information.')
 
     elif '-h' in args or '--help' in args:
-        print('Usage: {} [ MESSAGE ] -l [ TRUE/FALSE ]'.format(name))
-        print('Example: {} go to https://spotify.greerpage.com please -l true'.format(name))
+        print('Usage: morse [ MESSAGE ] -l [ TRUE/FALSE ]')
+        print('Example: morse go to https://spotify.greerpage.com please -l true')
         print()
         print('-l, --loop	if set to true the message will be displayed until the process is killed (false by default)')
 
@@ -27,8 +27,8 @@ def main():
         elif m[1].lower().strip() == 'false':
             start(m[0], False)
         else:
-            print('Usage: {} [ MESSAGE ] -l [ TRUE/FALSE ]'.format(name))
-            print('Try \'{} --help\' for more information.'.format(name))
+            print('Usage: morse [ MESSAGE ] -l [ TRUE/FALSE ]')
+        print('Try \'morse --help\' for more information.')
 
     elif '--loop' in args:
         m = ' '.join(args).split('--loop')
@@ -37,8 +37,8 @@ def main():
         elif m[1].lower().strip() == 'false':
             start(m[0], False)
         else:
-            print('Usage: {} [ MESSAGE ] -l [ TRUE/FALSE ]'.format(name))
-            print('Try \'{} --help\' for more information.'.format(name))
+            print('Usage: morse [ MESSAGE ] -l [ TRUE/FALSE ]')
+        print('Try \'morse --help\' for more information.')
     else:
         for arg in args:
             if '-' in arg:
