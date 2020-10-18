@@ -31,9 +31,9 @@ if __name__ == '__main__':
 	
 	elif '-l' in args:
 		m = ' '.join(args).split('-l')
-		if m[1].lower().split() == 'true':
+		if m[1].lower().strip() == 'true':
 			main(m[0], True)
-		elif m[1].lower().split() == 'false':
+		elif m[1].lower().strip() == 'false':
 			main(m[0], False)
 		else:
 			print('Usage: {} [ MESSAGE ] -l [ TRUE/FALSE ]'.format(name))
@@ -41,9 +41,9 @@ if __name__ == '__main__':
 	
 	elif '--loop' in args:
 		m = ' '.join(args).split('--loop')
-		if m[1].lower().split() == 'true':
+		if m[1].lower().strip() == 'true':
 			main(m[0], True)
-		elif m[1].lower().split() == 'false':
+		elif m[1].lower().strip() == 'false':
 			main(m[0], False)
 		else:
 			print('Usage: {} [ MESSAGE ] -l [ TRUE/FALSE ]'.format(name))
