@@ -3,7 +3,7 @@ import sys
 import time
 
 def main():
-    args, name = sys.argv, sys.argv[0]
+    args = sys.argv
     args.pop(0)
 
     if args == []:
