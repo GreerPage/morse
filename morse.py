@@ -4,12 +4,16 @@ import time
 
 
 def main(message, loop=False):
-	if loop:
-		while True:
+	try: 
+		if loop:
+			while True:
+				text_to_morse(message)
+				time.sleep(2)
+		else:
 			text_to_morse(message)
-			time.sleep(2)
-	else:
-		text_to_morse(message)
+	except KeyboardInterrupt:
+		print('KeyboardInterrupt')
+		exit()
 	
 if __name__ == '__main__':
 	args, name = sys.argv, sys.argv[0]
