@@ -4,83 +4,83 @@ from .lights import off
 def char_to_morse(c):
     if c == 'a':
         a()
-    if c == 'b':
+    elif c == 'b':
         b()
-    if c == 'c':
+    elif c == 'c':
         c()
-    if c == 'd':
+    elif c == 'd':
         d()
-    if c == 'e':
+    elif c == 'e':
         e()
-    if c == 'f':
+    elif c == 'f':
         f()
-    if c == 'g':
+    elif c == 'g':
         g()
-    if c == 'h':
+    elif c == 'h':
         h()
-    if c == 'i':
+    elif c == 'i':
         i()
-    if c == 'j':
+    elif c == 'j':
         j()
-    if c == 'k':
+    elif c == 'k':
         k()
-    if c == 'l':
+    elif c == 'l':
         l()
-    if c == 'm':
+    elif c == 'm':
         m()
-    if c == 'n':
+    elif c == 'n':
         n()
-    if c == 'o':
+    elif c == 'o':
         o()
-    if c == 'p':
+    elif c == 'p':
         p()
-    if c == 'q':
+    elif c == 'q':
         q()
-    if c == 'r':
+    elif c == 'r':
         r()
-    if c == 's':
+    elif c == 's':
         s()
-    if c == 't':
+    elif c == 't':
         t()
-    if c == 'u':
+    elif c == 'u':
         u()
-    if c == 'v':
+    elif c == 'v':
         v()
-    if c == 'w':
+    elif c == 'w':
         w()
-    if c == 'x':
+    elif c == 'x':
         x()
-    if c == 'y':
+    elif c == 'y':
         y()
-    if c == 'z':
+    elif c == 'z':
         z()
-    if c == '1':
+    elif c == '1':
         one()
-    if c == '2':
+    elif c == '2':
         two()
-    if c == '3':
+    elif c == '3':
         three()
-    if c == '4':
+    elif c == '4':
         four()
-    if c == '5':
+    elif c == '5':
         five()
-    if c == '6':
+    elif c == '6':
         six()
-    if c == '7':
+    elif c == '7':
         seven()
-    if c == '8':
+    elif c == '8':
         eight()
-    if c == '9':
+    elif c == '9':
         nine()
-    if c == '0':
+    elif c == '0':
         zero()
-    if c == '.':
+    elif c == '.':
         period()
-    if c == '?':
+    elif c == '?':
         question_mark()
-    if c == ',':
+    elif c == ',':
         comma()
-    if c == '!':
+    elif c == '!':
         exclamation_point()
     else:
         print('{}: unrecognized character'.format(c))
