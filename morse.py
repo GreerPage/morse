@@ -36,7 +36,6 @@ if __name__ == '__main__':
 		elif m[1].lower().split() == 'false':
 			main(m[0], False)
 		else:
-			print('e')
 			print('Usage: {} [ MESSAGE ] -l [ TRUE/FALSE ]'.format(name))
 			print('Try \'{} --help\' for more information.'.format(name))
 	
