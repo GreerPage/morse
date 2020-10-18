@@ -1,4 +1,5 @@
 from .key import *
+from .lights import off
 
 def char_to_morse(c):
     if c == 'a':
@@ -81,4 +82,8 @@ def char_to_morse(c):
         comma()
     if c == '!':
         exclamation_point()
+    else:
+        print('{}: unrecognized character')
+        off()
+        exit()
     
