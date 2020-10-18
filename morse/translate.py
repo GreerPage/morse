@@ -83,7 +83,7 @@ def char_to_morse(c):
     if c == '!':
         exclamation_point()
     else:
-        print('{}: unrecognized character'.format(char))
+        print('{}: unrecognized character'.format(c))
         off()
         exit()
     
