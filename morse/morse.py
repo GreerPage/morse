@@ -2,21 +2,23 @@ from .run import text_to_morse
 import sys
 import time
 
+def error():
+	print('Usage: morse [ MESSAGE ] -l [ TRUE/FALSE ]')
+    print('Try \'morse --help\' for more information.')
+
+
 def main():
     args = sys.argv
     args.pop(0)
 
     if args == []:
-        print('Usage: morse [ MESSAGE ] -l [ TRUE/FALSE ]')
-        print('Try \'morse --help\' for more information.')
+        error()
 
     elif args[0] == '-l' or args[0] == '--loop':
-        print('Usage: morse [ MESSAGE ] -l [ TRUE/FALSE ]')
-        print('Try \'morse --help\' for more information.')
+        error()
 
     elif '-h' in args or '--help' in args:
-        print('Usage: morse [ MESSAGE ] -l [ TRUE/FALSE ]')
-        print('Example: morse go to https://spotify.greerpage.com please -l true')
+        error()
         print()
         print('-l, --loop	if set to true the message will be displayed until the process is killed (false by default)')
 
@@ -39,6 +41,7 @@ def main():
         else:
             print('Usage: morse [ MESSAGE ] -l [ TRUE/FALSE ]')
         print('Try \'morse --help\' for more information.')
+		
     else:
         for arg in args:
             if '-' in arg:
