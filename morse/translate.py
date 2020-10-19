@@ -1,90 +1,90 @@
 from .key import *
 from .lights import off
 
-def char_to_morse(c):
+def char_to_morse(char):
     if c == 'a':
         a()
-    elif c == 'b':
+    elif char == 'b':
         b()
-    elif c == 'c':
+    elif char == 'c':
         c()
-    elif c == 'd':
+    elif char == 'd':
         d()
-    elif c == 'e':
+    elif char == 'e':
         e()
-    elif c == 'f':
+    elif char == 'f':
         f()
-    elif c == 'g':
+    elif char == 'g':
         g()
-    elif c == 'h':
+    elif char == 'h':
         h()
-    elif c == 'i':
+    elif char == 'i':
         i()
-    elif c == 'j':
+    elif char == 'j':
         j()
-    elif c == 'k':
+    elif char == 'k':
         k()
-    elif c == 'l':
+    elif char == 'l':
         l()
-    elif c == 'm':
+    elif char == 'm':
         m()
-    elif c == 'n':
+    elif char == 'n':
         n()
-    elif c == 'o':
+    elif char == 'o':
         o()
-    elif c == 'p':
+    elif char == 'p':
         p()
-    elif c == 'q':
+    elif char == 'q':
         q()
-    elif c == 'r':
+    elif char == 'r':
         r()
-    elif c == 's':
+    elif char == 's':
         s()
-    elif c == 't':
+    elif char == 't':
         t()
-    elif c == 'u':
+    elif char == 'u':
         u()
-    elif c == 'v':
+    elif char == 'v':
         v()
-    elif c == 'w':
+    elif char == 'w':
         w()
-    elif c == 'x':
+    elif char == 'x':
         x()
-    elif c == 'y':
+    elif char == 'y':
         y()
-    elif c == 'z':
+    elif char == 'z':
         z()
-    elif c == '1':
+    elif char == '1':
         one()
-    elif c == '2':
+    elif char == '2':
         two()
-    elif c == '3':
+    elif char == '3':
         three()
-    elif c == '4':
+    elif char == '4':
         four()
-    elif c == '5':
+    elif char == '5':
         five()
-    elif c == '6':
+    elif char == '6':
         six()
-    elif c == '7':
+    elif char == '7':
         seven()
-    elif c == '8':
+    elif char == '8':
         eight()
-    elif c == '9':
+    elif char == '9':
         nine()
-    elif c == '0':
+    elif char == '0':
         zero()
-    elif c == '.':
+    elif char == '.':
         period()
-    elif c == '?':
+    elif char == '?':
         question_mark()
-    elif c == ',':
+    elif char == ',':
         comma()
-    elif c == '!':
+    elif char == '!':
         exclamation_point()
     else:
         print()
-        print('{}: unrecognized character'.format(c))
+        print('{}: unrecognized character'.format(char))
         off()
         exit()
     
