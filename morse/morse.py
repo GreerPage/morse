@@ -4,7 +4,7 @@ import time
 
 def error():
 	print('Usage: morse [ MESSAGE ] -l [ TRUE/FALSE ]')
-    print('Try \'morse --help\' for more information.')
+	print('Try \'morse --help\' for more information.')
 
 
 def main():
@@ -41,7 +41,7 @@ def main():
         else:
             print('Usage: morse [ MESSAGE ] -l [ TRUE/FALSE ]')
         print('Try \'morse --help\' for more information.')
-		
+
     else:
         for arg in args:
             if '-' in arg:
