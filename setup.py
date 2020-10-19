@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="morse",
-    version="0.1.0",
+    version="0.1.1",
     author="Greer Page",
     author_email="greerishere@gmail.com",
     description="morse code for raspberry pi",
