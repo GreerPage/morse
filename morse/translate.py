@@ -2,7 +2,7 @@ from .key import *
 from .lights import off
 
 def char_to_morse(char):
-    if c == 'a':
+    if char == 'a':
         a()
     elif char == 'b':
         b()
