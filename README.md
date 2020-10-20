@@ -9,7 +9,7 @@ $ git clone https://github.com/GreerPage/morse
 $ cd morse
 $ pip install .
 ```
-make sure to connect an LED to a raspberry pi as shown below:
+make sure to connect an LED (using GPIO pin 18) to a raspberry pi as shown below:
 
 ![raspi](https://greerpage.com/static/images/raspidiagram.png)
 
